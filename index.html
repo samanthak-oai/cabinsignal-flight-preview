@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Preview how CabinSignal explains expected Starlink availability for a scheduled flight."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CabinSignal sample preview" />
+    <meta
+      property="og:description"
+      content="A privacy conscious flight connectivity preview using fixed sample data."
+    />
+    <meta
+      property="og:url"
+      content="https://samanthak-oai.github.io/cabinsignal-flight-preview/"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="canonical"
+      href="https://samanthak-oai.github.io/cabinsignal-flight-preview/"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CabinSignal sample preview</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="CabinSignal home">
+          <span class="signal-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          <span>CabinSignal</span>
+        </a>
+        <span class="preview-pill">Sample preview</span>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Flight connectivity, explained clearly</p>
+          <h1>Know before you board.</h1>
+          <p class="lede">
+            CabinSignal checks the operating airline, scheduled aircraft, and
+            reviewed evidence to show whether Starlink is expected on your flight.
+          </p>
+
+          <div class="status-notice" role="note">
+            <span class="notice-dot" aria-hidden="true"></span>
+            <div>
+              <strong>This is a sample result.</strong>
+              <p>
+                Live flight lookup will open only after schedule data licensing and
+                coverage checks are complete.
+              </p>
+            </div>
+          </div>
+
+          <div class="privacy-grid" aria-label="Privacy commitments">
+            <div>
+              <span class="privacy-number" aria-hidden="true">01</span>
+              <strong>No browsing access</strong>
+              <p>The extension never reads tabs, history, or page content.</p>
+            </div>
+            <div>
+              <span class="privacy-number" aria-hidden="true">02</span>
+              <strong>No account required</strong>
+              <p>Only a flight number and selected date are sent for lookup.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-stage" aria-label="CabinSignal sample result">
+          <div class="popup-frame">
+            <div class="popup-brand">
+              <span class="signal-mark" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </span>
+              <div>
+                <strong>CabinSignal</strong>
+                <span>Will your flight have Starlink?</span>
+              </div>
+            </div>
+
+            <article class="result-card">
+              <div class="assessment">
+                <span class="assessment-icon" aria-hidden="true">≈</span>
+                <div>
+                  <p>Fleet evidence match</p>
+                  <h2>Likely Starlink</h2>
+                  <span>
+                    The scheduled Airbus A330 fleet is officially reported as
+                    fully Starlink equipped.
+                  </span>
+                </div>
+              </div>
+
+              <div class="route" aria-label="John F Kennedy to Honolulu">
+                <strong>JFK</strong>
+                <span aria-hidden="true">→</span>
+                <strong>HNL</strong>
+              </div>
+
+              <dl class="flight-facts">
+                <div><dt>Operating airline</dt><dd>Hawaiian Airlines</dd></div>
+                <div><dt>Operating flight</dt><dd>HA51</dd></div>
+                <div><dt>Departure date</dt><dd>Sep 1, 2026</dd></div>
+                <div><dt>Departure time</dt><dd>2:30 PM UTC</dd></div>
+                <div><dt>Aircraft</dt><dd>Airbus A330 243</dd></div>
+                <div><dt>Tail</dt><dd>Not assigned</dd></div>
+              </dl>
+
+              <div class="evidence-row">
+                <span aria-hidden="true">›</span>
+                <strong>Evidence and sources</strong>
+                <span class="source-count">1</span>
+              </div>
+
+              <p class="disclaimer">
+                Aircraft assignments, maintenance, and connectivity outages can
+                change actual service.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="coverage" aria-labelledby="coverage-title">
+        <div>
+          <p class="eyebrow">Focused launch coverage</p>
+          <h2 id="coverage-title">Eight airlines, honest confidence.</h2>
+          <p>
+            Unsupported airlines return Unknown instead of a guess. Evidence is
+            reviewed, dated, and automatically downgraded when it expires or conflicts.
+          </p>
+        </div>
+        <ul aria-label="Launch airlines">
+          <li>United</li><li>Alaska</li><li>Hawaiian</li><li>Qatar Airways</li>
+          <li>Emirates</li><li>airBaltic</li><li>Air France</li><li>WestJet</li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>Independent and not affiliated with SpaceX, Starlink, or any airline.</p>
+        <p>Preview uses fixed sample data. No live flight query is performed.</p>
+      </footer>
+    </main>
+  </body>
+</html>
