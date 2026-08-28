@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CabinSignal icon">
+  <rect width="128" height="128" rx="34" fill="#102d25"/>
+  <circle cx="96" cy="96" r="54" fill="none" stroke="#91f3bd" stroke-width="6"/>
+  <circle cx="96" cy="96" r="36" fill="none" stroke="#91f3bd" stroke-width="6"/>
+  <circle cx="96" cy="96" r="14" fill="#f4ff5d"/>
+  <path d="M23 70c18-16 38-22 59-18" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="8"/>
+  <path d="m23 70 19 2-7-17" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
